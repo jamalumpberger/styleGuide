@@ -1,0 +1,30 @@
+@import '../bourbon/bourbon';
+@import 'colors';
+@import 'fonts';
+@import 'buttons';
+@import 'content';
+@import 'images';
+@import 'nav';
+
+body {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+li {
+	list-style-type:none;
+}
+
+li h1 {
+	text-align:left;
+}
+
+.col-sm-12, .col-sm-6 {
+	border-bottom:1px solid gray;
+	height:275px;
+}
+
+.box {
+	width:300px;
+	height:200px;
+	margin:auto;
+}

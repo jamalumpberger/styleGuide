@@ -1,0 +1,78 @@
+.button {
+	width:100px;
+	height:50px;
+	text-align:center;
+	font-size:14px;
+	float:left;
+	margin-left:20px;
+	margin-top:20px;
+	color:white;
+}
+
+a.button {
+	text-decoration:none;
+}
+
+a:hover {
+	color:white;
+}
+
+.buttongoogle {
+	@include button($red);
+	@extend .button;
+	padding-top:15px;
+	box-shadow: 2px 2px 2px #888888;
+	border-radius:0;
+	border:none;
+}
+
+.buttonsubmit {
+	@include button($blue);
+	@extend .button;
+	padding-top:15px;
+	box-shadow: 2px 2px 2px #888888;
+	border-radius:0;
+	border:none;
+}
+
+.buttongo {
+	@include button($green);
+	@extend .button;
+	width:50px;
+	border-radius:100%;
+	margin-left:28px;
+	color:white;
+	padding-left:0;
+	padding-right:0;
+	padding-top:15px;
+	box-shadow: 2px 2px 2px #888888;
+	border:none;
+}
+
+.buttoncancel {
+	@include button($red);
+	@extend .button;
+	width:50px;
+	border-radius:100%;
+	margin-left:28px;
+	color:white;
+	padding-left:0;
+	padding-right:0;
+	padding-top:15px;
+	box-shadow: 2px 2px 2px #888888;
+	border:none;
+}
+
+.buttonrefresh {
+	@include button($blue);
+	@extend .button;
+	width:50px;
+	border-radius:100%;
+	margin-left:28px;
+	color:white;
+	padding-left:0;
+	padding-right:0;
+	padding-top:15px;
+	box-shadow: 2px 2px 2px #888888;
+	border:none;
+}
